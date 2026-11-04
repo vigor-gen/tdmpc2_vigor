@@ -1,0 +1,5 @@
+# generalization type
+gen_type: original # [original, background_color, background_video, cam_pos, cam_ori, cam_dyn, normal_blur, gaussian_noise, light_position, light_color, moving_light, objects_color]
+
+# generalization difficulty
+gen_diff: easy # [easy, hard] 

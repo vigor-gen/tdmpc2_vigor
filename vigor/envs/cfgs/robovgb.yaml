@@ -1,0 +1,28 @@
+gen_type: train  # train, eval-easy, eval-hard, eval-extreme  (for texture?)
+scene_id: 0   # 0~9 (for texture?)
+color:
+  geom_names:   # all geoms are randomized
+  randomize_local: true  # sample nearby colors
+  randomize_material: false  # randomize material reflectance / shininess / specular
+  local_rgb_interpolation: 0.2
+  local_material_interpolation: 0.3
+  texture_variations:
+    - rgb
+    - checker
+    - noise
+    - gradient  # all texture variation types
+  randomize_skybox: true  # by default, randomize skybox too
+
+light:
+  light_names:   # all lights are randomized
+  randomize_position: false
+  randomize_direction: false
+  randomize_specular: false
+  randomize_ambient: false
+  randomize_diffuse: false
+  randomize_active: false
+  position_perturbation_size: 100
+  direction_perturbation_size: 50
+  specular_perturbation_size: 0.3
+  ambient_perturbation_size: 0.3
+  diffuse_perturbation_size: 0.3
