@@ -8,7 +8,7 @@ robosuite. The same code trains and evaluates the unmodified TD-MPC2 agent as
 a baseline. A DreamerV3-based variant of VIGOR ([DreamerV3+VIGOR][digor]) uses the same benchmark and
 evaluation protocol. For more details, please visit [here][vigor-gen].
 
-![Overview](./overview.jpg)
+![Overview](./overview.png)
 
 ## Changes from TD-MPC2
 
